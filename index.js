@@ -13,12 +13,12 @@ function triggerAnimation(animationClass) {
 }
 
 monkeyButton.addEventListener("click", () => {
-  resultText.textContent = "Nope Monkey Butt! 🐒";
+  resultText.textContent = "Nope Chicken Butt! 🐣";
   triggerAnimation("shake-animation"); 
 });
 
 chickenButton.addEventListener("click", () => {
-  resultText.textContent = "Nope Chicken Butt! 🐣";
+  resultText.textContent = "Nope Monkey Butt! 🐒";
   triggerAnimation("egg-crack-animation");
 });
 
