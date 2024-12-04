@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fd5f5f, #8c91d9, #8DDBE0);
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button-container {
+    margin: 1rem 0;
+  }
+  
+  .fun-button {
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .fun-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .fun-button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .result-text {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .new-click-me {
+    background-color: #FF69B4;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .new-click-me:hover {
+    transform: scale(1.1);
+    background-color: #FF1493;
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+      transform: translateX(-10px);
+    }
+  }
+  
+  @keyframes egg-crack {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes heart-explosion {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+  
+  .shake-animation {
+    animation: shake 1s ease;
+  }
+  
+  .egg-crack-animation {
+    animation: egg-crack 1s ease-in-out;
+  }
+  
+  .heart-explosion-animation {
+    animation: heart-explosion 1s ease-in-out;
+  }
+  
+  .fun-button:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+  }
+  
