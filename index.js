@@ -12,6 +12,7 @@ function triggerAnimation(animationClass) {
   }, 1000);
 }
 
+//changed the text
 monkeyButton.addEventListener("click", () => {
   resultText.textContent = "Nope Chicken Butt! 🐣";
   triggerAnimation("shake-animation"); 
